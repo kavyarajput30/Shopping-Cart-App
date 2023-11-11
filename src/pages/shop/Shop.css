@@ -1,0 +1,40 @@
+
+.prod {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 90px;
+}
+
+.shop-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/* Media query for smaller screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .prod {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .shop-title {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+}
+
+/* Media query for even smaller screens (max-width: 400px) */
+@media screen and (max-width: 400px) {
+    .prod {
+        padding: 10px; /* Further adjust padding for smaller screens */
+    }
+
+    .shop-title {
+        text-align: center;
+        font-size: 20px; /* Further decrease font size for smaller screens */
+    }
+}
+
+
+
+
+
